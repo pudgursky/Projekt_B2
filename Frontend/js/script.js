@@ -4,17 +4,17 @@
 
 function checkFields(starost, ime){
   if(starost==""){
-    $("#starost-error").show();
+    $("#starost-error").addClass("show");
     console.log("STAROST");
   } else {
-    $("#starost-error").hide();
+    $("#starost-error").removeClass("show");
   }
 
   if(ime == ""){
-    $("#ime-error").show();
+    $("#ime-error").addClass("show");
     console.log("IME");
   } else {
-    $("#ime-error").hide();
+    $("#ime-error").removeClass("show");
   }
 
   return ime != "" && starost != "";

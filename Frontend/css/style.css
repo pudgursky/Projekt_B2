@@ -1,0 +1,65 @@
+div {
+    margin:20px;
+    display: block;
+}
+
+#container {
+    margin: 0 auto;
+    width: 500px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+#seznam {
+    width: 100%;
+    background-color: black;
+}
+
+#seznam th {
+    font-size: 20px;
+    text-align: left;
+    background-color: antiquewhite;
+}
+
+#seznam td {
+    background-color: white;
+    width: 50%;
+}
+
+#buttons {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.labelfor {
+    width: 20%;
+    display: block;
+    float:left;
+    text-align: right;
+}
+
+.labelerr {
+    width: 80%;
+    text-align: right;
+    margin-right: 20%;
+    color: red;
+}
+
+.show {
+    display: block;
+}
+
+input {
+    width: 60%;
+    margin-right: 20%;
+    display: block;
+    float:left;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    width: 49%;
+    border-radius: 10px;
+}

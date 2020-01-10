@@ -3,22 +3,33 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div id="seznam-oseb">
-        <h1>Seznam oseb</h1>
-        <table id="seznam">
-            <tr>
-                <th>Ime</th>
-                <th>Starost</th>
-            </tr>
-        </table>
-    </div>
-    <div id="form">
-        <label for="ime">Ime: </label><input id="ime" name="ime" type="text"><label hidden id="ime-error">Polje je obvezno</label><br>
-        <label for="starost">Starost: </label><input id="starost" name="starost" type="number"><label hidden id="starost-error">Polje je obvezno</label><br>
-        <button id="lokalno">Lokalno</button>
-        <button id="streznik">Na streznik</button>
+    <div id="container">
+        <div id="seznam-oseb">
+            <h1>Seznam oseb</h1>
+            <table id="seznam">
+                <tr>
+                    <th>Ime</th>
+                    <th>Starost</th>
+                </tr>
+            </table>
+        </div>
+        <div id="form">
+            <h1>Dodaj osebo</h1>
+            <label class="labelfor" for="ime">Ime: </label><input id="ime" name="ime" type="text"><br>
+            <label class="labelerr" hidden id="ime-error">Polje je obvezno</label><br>
+
+            <label class="labelfor" for="starost">Starost: </label><input id="starost" name="starost" type="number"><br>
+            <label class="labelerr" hidden id="starost-error">Polje je obvezno</label><br>
+            <div id="buttons">
+                <button id="lokalno">Lokalno</button>
+                <button id="streznik">Na streznik</button>
+            </div>
+            
+        </div>
     </div>
 </body>
 <script src="js/jquery-3.1.1.min.js"></script>
