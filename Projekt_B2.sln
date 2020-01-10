@@ -5,6 +5,28 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{85A5BF97-AE53-4C78-A909-5E83DF375960}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Frontend", "Frontend\", "{3C58D78F-C06A-43A0-B6AE-B92C4CC7B0FA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50894"
+		Debug.AspNetCompiler.PhysicalPath = "Frontend\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50894\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50894"
+		Release.AspNetCompiler.PhysicalPath = "Frontend\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50894\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50894"
+		SlnRelativePath = "Frontend\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +37,10 @@ Global
 		{85A5BF97-AE53-4C78-A909-5E83DF375960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85A5BF97-AE53-4C78-A909-5E83DF375960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85A5BF97-AE53-4C78-A909-5E83DF375960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C58D78F-C06A-43A0-B6AE-B92C4CC7B0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C58D78F-C06A-43A0-B6AE-B92C4CC7B0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C58D78F-C06A-43A0-B6AE-B92C4CC7B0FA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C58D78F-C06A-43A0-B6AE-B92C4CC7B0FA}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
